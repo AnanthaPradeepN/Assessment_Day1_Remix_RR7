@@ -17,7 +17,7 @@ export default function Header() {
 
 const styles = {
   header: {
-    background: "linear-gradient(135deg, #4169e1 0%, #839deb 100%)", // ✅ mild royal gradient
+    background: "linear-gradient(135deg, #4169e1 0%, #839deb 100%)", 
     color: "#012934",
     padding: "1rem 2rem",
     display: "flex",
