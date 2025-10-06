@@ -84,4 +84,7 @@ This template comes with [Tailwind CSS](https://tailwindcss.com/) already config
 
 ---
 
-Built with ❤️ using React Router.
+
+![Alt text](./assets/a1.png)
+![Alt text](./assets/a2.png)
+
