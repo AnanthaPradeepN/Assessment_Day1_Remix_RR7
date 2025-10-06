@@ -15,7 +15,7 @@ export default function Contact() {
 
   return (
     <div>
-      <h2>📩 Contact Page</h2>
+      <h2> Contact Page</h2>
       <p>Email us at: {email}</p>
 
       <Form method="post">

@@ -1,21 +1,18 @@
-import { Outlet, NavLink } from "react-router";
+import { Outlet } from "react-router";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import MainBody from "./components/MainBody";
+import './app.css';
+
 
 export function Root() {
   return (
     <div>
-      <header>
-        <h1>🚀 React Router v7 Framework Mode</h1>
-        <nav>
-          <NavLink to="/">Home</NavLink> |{" "}
-          <NavLink to="/about">About</NavLink> |{" "}
-          <NavLink to="/contact">Contact</NavLink> |{" "}
-          <NavLink to="/dashboard">Dashboard</NavLink> |{" "}
-          <NavLink to="/user/101">User 101</NavLink>
-        </nav>
-      </header>
+      <Header />
       <main>
-        <Outlet />
+        <MainBody />
       </main>
+      <Footer />
     </div>
   );
 }
