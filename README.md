@@ -84,7 +84,3 @@ This template comes with [Tailwind CSS](https://tailwindcss.com/) already config
 
 ---
 
-
-![Alt text](./assets/a1.png)
-![Alt text](./assets/a2.png)
-
